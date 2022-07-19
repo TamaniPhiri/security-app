@@ -1,13 +1,65 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+body, html {
+  background:url(/src/images/app\ background.jpg)gray;
+  background-size: cover;
+  background-blend-mode: darken;
+  background-repeat: no-repeat;
+  background-color: black;
+    font-family: 'Roboto', sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased
+}
+
+body::before{
+  content: "";
+  position:absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background:url(/src/images/app\ background.jpg)gray;
+  background-size: cover;
+  background-blend-mode: darken;
+  background-repeat: no-repeat;
+  opacity: 0.6;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+button{
+  position: relative;
+  border-radius: 10px;
+  border: transparent;
+  background-color: rgb(27, 134, 38);
+  margin-bottom: 20px;
+  padding: 10px;
+}
+input{
+  position: relative;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  border: transparent;
+
+}
+div{
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
+label{
+  position: relative;
+  margin-right: 15px;
+  text-align: center;
+}
+h1{
+  position: relative;
+  font-size: xx-large;
+}
+
+h3{
+  position: relative;
 }
