@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
 
 body, html {
-  background:url(/src/images/app\ background.jpg)gray;
-  background-size: cover;
-  background-blend-mode: darken;
-  background-repeat: no-repeat;
   background-color: black;
     font-family: 'Roboto', sans-serif;
     -moz-osx-font-smoothing: grayscale;
